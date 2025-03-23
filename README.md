@@ -1,6 +1,10 @@
-# 🚀 Bitcoin Scripting Project
+# 💰 Bitcoin Scripting Project
 
- 
+## 👨‍💼 Team
+
+- **Arunav Sameer** | Roll No: **230001010**
+- **Abhitulya Mishra** | Roll No: **230002002**
+- **Anmol Joshi** | Roll No: **230001007**
 
 ## 📌 Introduction
 
@@ -14,11 +18,11 @@ This project demonstrates **Bitcoin transaction scripting** using **Legacy (P2PK
 
 ## 🎯 Tasks
 
-✔️ **Legacy (P2PKH) Transactions**\
-✔️ **SegWit (P2SH-P2WPKH) Transactions**\
-✔️ **ScriptPubKey & ScriptSig Extraction**\
-✔️ **Transaction Verification using Bitcoin Debugger**\
-✔️ **Mempool & Blockchain State Analysis**
+✅ **Legacy (P2PKH) Transactions**\
+✅ **SegWit (P2SH-P2WPKH) Transactions**\
+✅ **ScriptPubKey & ScriptSig Extraction**\
+✅ **Transaction Verification using Bitcoin Debugger**\
+✅ **Mempool & Blockchain State Analysis**
 
 ## 🛠 Prerequisites
 
@@ -80,7 +84,7 @@ python code2.py
 - Extracts **locking scripts** (ScriptPubKey) and **unlocking scripts** (ScriptSig).
 - Decodes and signs transactions.
 
-### 📡 4. Broadcasting & Verification
+### 📱 4. Broadcasting & Verification
 
 - Sends signed transactions to the Bitcoin network.
 - Confirms transactions by generating new blocks.
@@ -100,7 +104,7 @@ For deeper analysis, use the **Bitcoin Debugger** to verify:
 - **ScriptSig (Unlocking Script)**
 - **Transaction Validation**
 
-## 📜 Example Output
+## 💜 Example Output
 
 ```
 Connected to Bitcoin Core RPC
@@ -122,14 +126,14 @@ Verifying transaction using Bitcoin Debugger...
 
 ### ✅ Legacy Transactions (P2PKH)
 
-- **Sent BTC from A ➡️ B**
+- **Sent BTC from A ➞ B ➞ C**
 - **Signed transaction using private key**
 - **Extracted ScriptPubKey & ScriptSig**
 - **Verified the transaction with Bitcoin Debugger**
 
 ### ✅ SegWit Transactions (P2SH-P2WPKH)
 
-- **Sent BTC from A' ➡️ B' ➡️ C'**
+- **Sent BTC from A' ➞ B' ➞ C'**
 - **Used SegWit-compatible addresses**
 - **Reduced transaction size & fees**
 - **Verified unlocking scripts in Bitcoin Debugger**
@@ -140,10 +144,4 @@ Verifying transaction using Bitcoin Debugger...
 bitcoin-cli -regtest getmempoolinfo
 bitcoin-cli -regtest getblockchaininfo
 ```
-
-##
-
----
-
-
 
