@@ -2,9 +2,11 @@
 
 ## 👨‍💼 Team
 
-- **Arunav Sameer** | Roll No: **230001010**
-- **Abhitulya Mishra** | Roll No: **230002002**
-- **Anmol Joshi** | Roll No: **230001007**
+| Name              | Roll No       |
+|------------------|--------------|
+| Arunav Sameer   | 230001010     |
+| Abhitulya Mishra | 230002002     |
+| Anmol Joshi      | 230001007     |
 
 ## 📌 Introduction
 
@@ -144,4 +146,3 @@ Verifying transaction using Bitcoin Debugger...
 bitcoin-cli -regtest getmempoolinfo
 bitcoin-cli -regtest getblockchaininfo
 ```
-
