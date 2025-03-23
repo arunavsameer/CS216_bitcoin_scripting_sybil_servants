@@ -59,13 +59,13 @@ bitcoind -regtest -daemon
 #### 🔹 Legacy Transactions (P2PKH)
 
 ```sh
-python code1.py
+python part1.py
 ```
 
 #### 🔹 SegWit Transactions (P2SH-P2WPKH)
 
 ```sh
-python code2.py
+python part2.py
 ```
 
 ## 🔍 How It Works
