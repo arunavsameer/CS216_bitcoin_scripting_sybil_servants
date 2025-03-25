@@ -143,3 +143,6 @@ For deeper analysis, use the **Bitcoin Debugger** to verify:
 bitcoin-cli -regtest getmempoolinfo
 bitcoin-cli -regtest getblockchaininfo
 ```
+## Acknowledgement  
+- Prof. Subhra Mazumdar, for the project idea and concepts of Bitcoin scripting & addressing formats.  
+- A very helpful documentation of Bitcoind access with Python on [Github](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/18_4_Accessing_Bitcoind_with_Python.md).  
