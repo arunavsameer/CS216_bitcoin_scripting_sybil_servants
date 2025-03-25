@@ -106,23 +106,20 @@ For deeper analysis, use the **Bitcoin Debugger** to verify:
 - **ScriptSig (Unlocking Script)**
 - **Transaction Validation**
 
-## 💜 Example Output
-
-```
-Connected to Bitcoin Core RPC
-Wallet 'mywallet' loaded successfully
-
-Generating addresses...
-Legacy Address A: <address>
-Legacy Address B: <address>
-Funding transaction: <txid>
-...
-Transaction successfully signed
-Transaction broadcasted: <txid>
-Decoded transaction details: { ... }
-Verifying transaction using Bitcoin Debugger...
-✅ Transaction verified successfully!
-```
+## How To Validate The Extracted Scripts ?
+1. Open  Command Prompt and execute the following command to connect to the Bitcoin Debugger server:
+   
+	```
+	ssh guest@10.206.4.201
+	```
+3. Enter the password `root1234` to complete the connection.
+4. Execute the following command to check if the extracted scripts are valid or not:
+   
+	```
+	btcdeb -v '<ScriptSig><ScriptPubKey'
+	```
+	Here, replace `<ScriptSig>` with the response script and `<ScriptPubKey>` with the challenge script, and put the concatenated string (without any spaces in between) inside the single quotes.
+6. If the output contains the clause `valid script`, then the challenge and response scripts are valid. If it contains the clause `invalid script`, then the scripts are invalid.
 
 ## 🏆 Results & Analysis
 
